@@ -239,15 +239,16 @@ def raw_data_output(df):
             raw_data_query = input('Would you like to see some raw data?').lower()
             if raw_data_query == 'yes':
                 print(df.iloc[start:start + 5])
+                print('-'*40)
             elif raw_data_query != 'yes':
                 print('Ending data display')
+                print('-'*40)
                 break
             else:
                 """This should only display if all data has been displayed"""  
                 print('No more data to display') 
                 break
         except Exception as e:
-            print('An exception occurred')
             print("Exception occurred: {}".format(e))
 
         
