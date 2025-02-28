@@ -7,7 +7,7 @@ Project created on 2/27/25.  README file created 2/27/25
 Exploring US Bikeshare Data 
 
 ### Description
-Describe what your project is about and what it does
+My project is a python program that takes user input and uses that to filter and display Bikeshare data with the user.
 
 ### Files used
 Include the files used
