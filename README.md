@@ -10,8 +10,11 @@ Exploring US Bikeshare Data
 My project is a python program that takes user input and uses that to filter and display Bikeshare data with the user.
 
 ### Files used
-Include the files used
+bikeshare_JM.py
+new_york_city.csv
+washington.csv
+chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Original repo that was forked to make this repo: https://github.com/udacity/pdsnd_github
 
