@@ -246,7 +246,6 @@ def raw_data_output(df):
                 print('No more data to display') 
                 break
         except Exception as e:
-            print('An exception occurred')
             print("Exception occurred: {}".format(e))
 
         
