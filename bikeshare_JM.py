@@ -242,7 +242,8 @@ def raw_data_output(df):
             elif raw_data_query != 'yes':
                 print('Ending data display')
                 break
-            else:  
+            else:
+                """This should only display if all data has been displayed"""  
                 print('No more data to display') 
                 break
         except Exception as e:
